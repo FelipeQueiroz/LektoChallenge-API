@@ -28,13 +28,25 @@ dotnet restore
 Crie um arquivo appsettings.json na raiz do projeto e adicione as informações do seu banco de dados. Exemplo:
 ```json
 {
-  "MongoDBSettings": {
-    "Host": "localhost",
-    "Port": "27017",
-    "DatabaseName": "nome-do-banco-de-dados",
-    "CollectionName": "nome-da-colecao"
-  }
+  "UserStoreDatabaseSettings": {
+    "CollectionName": "users",
+    "ConnectionString": "MONGODB_URL",
+    "DatabaseName": "Users"
+  },
+  "MessageStoreDatabaseSettings": {
+    "CollectionMessageName": "messages",
+    "ConnectionString": "MONGODB_URL",
+    "DatabaseName": "Messages"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
 }
+
 ```
 Execute o projeto
 ```
