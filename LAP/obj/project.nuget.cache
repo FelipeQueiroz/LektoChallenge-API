@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AxpsCSMvMi+8EKAy9ubcSDHyey0u3Ze/Gq9vmoSmyVlQNbRYzjJQpDivu3IUl++netNSRRUJz235xDcX5fOHfQ==",
+  "dgSpecHash": "UQIi4y46oqh4ihcW/DEThSGWv0bpyMAL6owpuvMwqE94i6xzcgIk0MwDHvOq+LxIVcxrKf5nWiICVa0rJpBkTw==",
   "success": true,
-  "projectFilePath": "/Users/leadup/Projects/LAP/LAP/LAP.csproj",
+  "projectFilePath": "/Users/leadup/LektoChallenge-API/LAP/LAP.csproj",
   "expectedPackageFiles": [
     "/Users/leadup/.nuget/packages/awssdk.core/3.7.100.14/awssdk.core.3.7.100.14.nupkg.sha512",
     "/Users/leadup/.nuget/packages/awssdk.securitytoken/3.7.100.14/awssdk.securitytoken.3.7.100.14.nupkg.sha512",

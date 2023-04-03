@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/leadup/Projects/LAP/LAP/LAP.csproj": {}
+    "/Users/leadup/LektoChallenge-API/LAP/LAP.csproj": {}
   },
   "projects": {
-    "/Users/leadup/Projects/LAP/LAP/LAP.csproj": {
+    "/Users/leadup/LektoChallenge-API/LAP/LAP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/leadup/Projects/LAP/LAP/LAP.csproj",
+        "projectUniqueName": "/Users/leadup/LektoChallenge-API/LAP/LAP.csproj",
         "projectName": "LAP",
-        "projectPath": "/Users/leadup/Projects/LAP/LAP/LAP.csproj",
+        "projectPath": "/Users/leadup/LektoChallenge-API/LAP/LAP.csproj",
         "packagesPath": "/Users/leadup/.nuget/packages/",
-        "outputPath": "/Users/leadup/Projects/LAP/LAP/obj/",
+        "outputPath": "/Users/leadup/LektoChallenge-API/LAP/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/leadup/.nuget/NuGet/NuGet.Config"
