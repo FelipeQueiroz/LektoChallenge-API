@@ -15,7 +15,15 @@ builder.Services.AddSingleton<IUserStoreDatabaseSettings>(sp =>
 builder.Services.AddSingleton<IMongoClient>(s =>
     new MongoClient(builder.Configuration.GetValue<string>("UserStoreDatabaseSettings:ConnectionString")));
 
+builder.Services.Configure<MessageStoreDatabaseSettings>(
+    builder.Configuration.GetSection(nameof(MessageStoreDatabaseSettings)));
+
+builder.Services.AddSingleton<IMessageStoreDatabaseSettings>(sp =>
+    sp.GetRequiredService<IOptions<MessageStoreDatabaseSettings>>().Value);
+
 builder.Services.AddScoped<IUserService, UserService>();
+
+builder.Services.AddScoped<IMessageService, MessageService>();
 
 builder.Services.AddControllers();
 
