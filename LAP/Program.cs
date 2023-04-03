@@ -50,6 +50,8 @@ app.UseCors(c => {
     c.AllowAnyOrigin();
 });
 
+
+
 app.UseAuthorization();
 
 app.MapControllers();
